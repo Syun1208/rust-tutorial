@@ -1,0 +1,8 @@
+/target
+*
+!src/
+!.git*
+!*.lock
+!*.toml
+!*.rs
+!*.md
