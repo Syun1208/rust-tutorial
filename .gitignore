@@ -1,6 +1,8 @@
 /target
 *
 !src/
+!data/
+!machine_learning/
 !.git*
 !*.lock
 !*.toml
