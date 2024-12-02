@@ -1,6 +1,7 @@
 /target
 *
 !src/
+!*.py
 !data/
 !machine_learning/
 !.git*
