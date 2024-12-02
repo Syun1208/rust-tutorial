@@ -3,4 +3,11 @@ name = "rust-tutorials"
 version = "0.1.0"
 edition = "2021"
 
-[dependencies]
+[lib]
+name = "rust"
+
+crate-type = ["cdylib"]
+
+[dependencies.pyo3]
+version = "0.15.0"
+features = ["extension-module"]
